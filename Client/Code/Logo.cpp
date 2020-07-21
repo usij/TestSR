@@ -16,7 +16,7 @@ CLogo::~CLogo(void)
 
 HRESULT CLogo::Ready_Scene(void)
 {
-
+	cout << "reddy_scene " << endl;
 	FAILED_CHECK_RETURN(Engine::CScene::Ready_Scene(), E_FAIL);
 	FAILED_CHECK_RETURN(Ready_Resource(m_pGraphicDev, RESOURCE_END), E_FAIL);
 	FAILED_CHECK_RETURN(Ready_Layer_UI(L"UI"), E_FAIL);
