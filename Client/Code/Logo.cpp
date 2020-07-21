@@ -37,7 +37,7 @@ HRESULT CLogo::Ready_Scene(void)
 
 	m_pGraphicDev->SetTransform(D3DTS_VIEW, &matView);
 	m_pGraphicDev->SetTransform(D3DTS_PROJECTION, &matProj);
-
+	
 
 	return S_OK;
 }
